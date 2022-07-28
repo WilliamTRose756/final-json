@@ -1,6 +1,5 @@
 import json
 import pandas as pd
-from pandas import json_normalize
 
 with open('data_1.json') as data_1:
     read_content_1 = json.load(data_1)
@@ -20,7 +19,7 @@ constants_dict_1 = {}
 constants_dict_2 = {}
 constants_dict_3 = {}
 
-# Retrieve the top level constants, 3 different dictionarys here 
+# Retrieve the top level constants, 3 different dictionaries here 
 # just in case the values differ between json 1,2,3
 top_const_keys = ['tenantName', 'eventType', 'eventTimeEpoch']
 
@@ -30,7 +29,7 @@ for key in top_const_keys:
     constants_dict_3.update({key : read_content_3.get(key)})    
 
 # These will hold the individual readings and will have the constant
-# data injected into them 
+# data injected into them later
 data_1 = read_content_1['payload'].pop('data')
 data_2 = read_content_2['payload'].pop('data')
 data_3 = read_content_3['payload'].pop('data')
@@ -38,7 +37,6 @@ data_3 = read_content_3['payload'].pop('data')
 # Add the mid level constant values to the top level constant values
 # Read_content['payload'] leftover after the pop represents the mid level
 # constants in the json data. 
-
 mid_lvl_constants_1 = read_content_1['payload']
 constants_dict_1.update(mid_lvl_constants_1)
 
