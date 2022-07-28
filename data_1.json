@@ -1,0 +1,114 @@
+[
+    {
+        "tenantName": "GREENVILLE",
+        "eventType": "EXIT",
+        "eventTimeEpoch": 1657152013,
+        "payload": {
+            "data": [
+                {
+                    "antenna": "Antenna2",
+                    "datetime": "2022-07-06 18:53:33.0827",
+                    "readername": "Modjoul Test 2",
+                    "epc": "MODJ00000139",
+                    "deviceid": "A5:8D:ZC:90:95:9Z",
+                    "user": "null",
+                    "tagevent": "Tag Visible",
+                    "peakrssi": -56
+                },
+                {
+                    "antenna": "Antenna1",
+                    "datetime": "2022-07-06 18:53:37.0157",
+                    "readername": "Modjoul Test 2",
+                    "epc": "MODJ00000139",
+                    "deviceid": "A5:8D:ZC:90:95:9Z",
+                    "user": "null",
+                    "tagevent": "Tag Visible",
+                    "peakrssi": -55
+                },
+                {
+                    "antenna": "Antenna2",
+                    "datetime": "2022-07-06 18:53:40.0427",
+                    "readername": "Modjoul Test 2",
+                    "epc": "MODJ00000139",
+                    "deviceid": "A5:8D:ZC:90:95:9Z",
+                    "user": "null",
+                    "tagevent": "Tag Visible",
+                    "peakrssi": -58
+                },
+                {
+                    "antenna": "Antenna1",
+                    "datetime": "2022-07-06 18:53:37.0216",
+                    "readername": "Modjoul Test 2",
+                    "epc": "MODJ00000138",
+                    "deviceid": "A5:8D:ZC:90:95:9Z",
+                    "user": "null",
+                    "tagevent": "Tag Visible",
+                    "peakrssi": -59
+                },
+                {
+                    "antenna": "Antenna1",
+                    "datetime": "2022-07-06 18:53:34.0428",
+                    "readername": "Modjoul Test 2",
+                    "epc": "MODJ00000040",
+                    "deviceid": "A5:8D:ZC:90:95:9Z",
+                    "user": "null",
+                    "tagevent": "Tag Visible",
+                    "peakrssi": -61
+                },
+                {
+                    "antenna": "Antenna1",
+                    "datetime": "2022-07-06 18:53:34.0427",
+                    "readername": "Modjoul Test 2",
+                    "epc": "MODJ00000136",
+                    "deviceid": "A5:8D:ZC:90:95:9Z",
+                    "user": "null",
+                    "tagevent": "Tag Visible",
+                    "peakrssi": -67
+                },
+                {
+                    "antenna": "Antenna1",
+                    "datetime": "2022-07-06 18:53:38.0717",
+                    "readername": "Modjoul Test 2",
+                    "epc": "MODJ00000136",
+                    "deviceid": "A5:8D:ZC:90:95:9Z",
+                    "user": "null",
+                    "tagevent": "Tag Visible",
+                    "peakrssi": -60
+                },
+                {
+                    "antenna": "Antenna1",
+                    "datetime": "2022-07-06 18:53:34.0457",
+                    "readername": "Modjoul Test 2",
+                    "epc": "MODJ00000135",
+                    "deviceid": "A5:8D:ZC:90:95:9Z",
+                    "user": "null",
+                    "tagevent": "Tag Visible",
+                    "peakrssi": -68
+                },
+                {
+                    "antenna": "Antenna1",
+                    "datetime": "2022-07-06 18:53:34.0457",
+                    "readername": "Modjoul Test 2",
+                    "epc": "MODJ00000134",
+                    "deviceid": "A5:8D:ZC:90:95:9Z",
+                    "user": "null",
+                    "tagevent": "Tag Visible",
+                    "peakrssi": -66
+                },
+                {
+                    "antenna": "Antenna1",
+                    "datetime": "2022-07-06 18:53:34.0607",
+                    "readername": "Modjoul Test 2",
+                    "epc": "MODJ00000133",
+                    "deviceid": "A5:8D:ZC:90:95:9Z",
+                    "user": "null",
+                    "tagevent": "Tag Visible",
+                    "peakrssi": -67
+                }
+            ],
+            "accountuuid": "12345678911223344",
+            "version": "1.0",
+            "deviceid": "A5:8D:ZC:90:95:9Z"
+        }
+    }
+]
